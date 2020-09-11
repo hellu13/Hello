@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="알람 설정">
+        <SwitchPreference
+            android:key="alarm"
+            android:title="알람"/>
+        <ListPreference
+            android:entries="@array/array_time"
+            android:entryValues="@array/array_time"
+            android:key="time_list"
+            android:summary="아침"
+            android:title="시간 설정"/>
+        <ListPreference
+            android:entries="@array/array_voice"
+            android:entryValues="@array/array_voice"
+            android:key="sound_list"
+            android:summary="사계"
+            android:title="알림음"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="집 주소 설정">
+        <EditTextPreference
+            android:key="address"
+            android:summary="서울시 강남구 수서동 110-2"
+            android:title="집 주소 설정" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="연락처 설정">
+        <ListPreference
+            android:key="listPreference"
+            android:title="연락처 설정" />
+    </PreferenceCategory>
+</PreferenceScreen>

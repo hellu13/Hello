@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnAlarm"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_lock_idle_alarm" />
+
+        <ImageButton
+            android:id="@+id/btnZoom"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_zoom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="약 복용 알림"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="돋보기"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnNavigator"
+                android:layout_width="150dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_menu_directions" />
+
+            <ImageButton
+                android:id="@+id/btnCall"
+                android:layout_width="150dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_menu_call" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="집찾기"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="전화걸기"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnLock"
+                android:layout_width="150dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_lock_idle_lock" />
+
+            <ImageButton
+                android:id="@+id/btnSetting"
+                android:layout_width="150dp"
+                android:layout_height="135dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_menu_preferences" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="설정"
+                android:textSize="20sp" />
+        </TableRow>
+
+</TableLayout>

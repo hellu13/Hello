@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallingActivity">
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnFamily"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:text="가족"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:text="친척"
+        android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnFriend"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="친구"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnHospital"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="병원"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRestaurant"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="음식점"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/btnAgency"
+            android:layout_width="150dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="주요기관"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+</TableLayout>
