@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.telecom.Call;
 import android.view.View;
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btnZoom = findViewById(R.id.btnZoom);
         ImageButton btnCall = findViewById(R.id.btnCall);
         ImageButton btnSet = findViewById(R.id.btnSetting);
+        ImageButton btnNavigator = findViewById(R.id.btnNavigator);
         btnAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), NoteDetailActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnNavigator.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.me/5O5IK8z6"));
                 startActivity(intent);
             }
         });
