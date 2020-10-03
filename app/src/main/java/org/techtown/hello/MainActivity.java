@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btnAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showMessage();
+                Intent intent = new Intent(getApplicationContext(), AlarmActivity.class);
+                startActivity(intent);
             }
         });
         btnZoom.setOnClickListener(new View.OnClickListener() {
