@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton btnCall = findViewById(R.id.btnCall);
         ImageButton btnSet = findViewById(R.id.btnSetting);
         ImageButton btnNavigator = findViewById(R.id.btnNavigator);
+        ImageButton btnLock = findViewById(R.id.btnLock);
         btnAlarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

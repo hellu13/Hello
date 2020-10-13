@@ -52,7 +52,7 @@
             android:textSize="20dp"/>
 
         <Button
-            android:id="@+id/btnGChild"
+            android:id="@+id/btnFSelect"
             android:layout_width="150dp"
             android:layout_height="135dp"
             android:layout_marginLeft="10dp"
@@ -60,8 +60,8 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="30dp"
             android:layout_weight="1"
-            android:text="손주"
-            android:textSize="20dp"/>
+            android:text="연락처 가져오기"
+            android:textSize="10dp"/>
 
     </TableRow>
 
