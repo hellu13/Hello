@@ -16,5 +16,22 @@ public class CallingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calling);
 
+        Button btnFamily = findViewById(R.id.btnFamily);
+        Button btnRelative = findViewById(R.id.btnRelative);
+        Button btnFriend = findViewById(R.id.btnFriend);
+        Button btnHospital = findViewById(R.id.btnHospital);
+        Button btnRestaurant = findViewById(R.id.btnRestaurant);
+        Button btnAgency = findViewById(R.id.btnAgency);
+
+        btnFamily.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CallingFActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
     }
 }

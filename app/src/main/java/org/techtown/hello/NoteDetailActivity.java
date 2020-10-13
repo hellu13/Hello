@@ -17,6 +17,8 @@ public class NoteDetailActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.relative_layout, fragment, "SETTINGS_FRAGMENT");
         fragmentTransaction.commit();
+
+
     }
     public static class SettingsFragment extends PreferenceFragment {
         @Override
