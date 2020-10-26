@@ -30,6 +30,13 @@ public class CallingActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btnRelative.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), CallingRActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
 

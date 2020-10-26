@@ -15,6 +15,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AlarmEActivity"></activity>
+        <activity android:name=".AlarmLActivity" />
+        <activity android:name=".AlarmMActivity" />
         <activity android:name=".AlarmActivity" />
         <activity android:name=".NoteDetailActivity" />
         <activity android:name=".SettingsActivity" />
@@ -25,8 +28,12 @@
             android:label="전화걸기 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name=".CallingFActivity"
-            android:label="가족전화걸기 액티비티"
+        android:name=".CallingFActivity"
+        android:label="가족 전화걸기 액티비티"
+        android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".CallingRActivity"
+            android:label="친척 전화걸기 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".MainActivity">
             <intent-filter>
