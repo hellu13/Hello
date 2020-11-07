@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.techtown.hello">
+    package="org.techtown.sliverapp">
 
     <uses-permission android:name="android.permission.CAMERA" /> <!-- 카메라 권한 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 저장소 읽기 권한 -->
@@ -15,35 +15,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlarmEActivity"></activity>
-        <activity android:name=".AlarmLActivity" />
-        <activity android:name=".AlarmMActivity" />
-        <activity android:name=".AlarmActivity" />
-        <activity android:name=".NoteDetailActivity" />
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".AppPreferences" />
-        <activity android:name=".ZoomActivity" />
+        <activity android:name="org.techtown.sliverapp.AlarmEActivity"></activity>
+        <activity android:name="org.techtown.sliverapp.AlarmLActivity" />
+        <activity android:name="org.techtown.sliverapp.AlarmMActivity" />
+        <activity android:name="org.techtown.sliverapp.AlarmActivity" />
+        <activity android:name="org.techtown.sliverapp.NoteDetailActivity" />
+        <activity android:name="org.techtown.sliverapp.SettingsActivity" />
+        <activity android:name="org.techtown.sliverapp.AppPreferences" />
+        <activity android:name="org.techtown.sliverapp.ZoomActivity" />
         <activity
-            android:name=".CallingActivity"
+            android:name="org.techtown.sliverapp.CallingActivity"
             android:label="전화걸기 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-        android:name=".CallingFActivity"
+        android:name="org.techtown.sliverapp.CallingFActivity"
         android:label="가족 전화걸기 액티비티"
         android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name=".CallingRActivity"
+            android:name="org.techtown.sliverapp.CallingRActivity"
             android:label="친척 전화걸기 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
-        <activity android:name=".MainActivity">
+        <activity android:name="org.techtown.sliverapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <receiver android:name=".Alarm" />
+        <receiver android:name="org.techtown.sliverapp.Alarm" />
     </application>
 
 </manifest>

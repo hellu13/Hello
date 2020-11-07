@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

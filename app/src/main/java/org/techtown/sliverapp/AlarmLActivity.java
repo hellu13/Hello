@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,7 +12,7 @@ import android.widget.TimePicker;
 
 import java.util.Calendar;
 
-public class AlarmEActivity extends AppCompatActivity {
+public class AlarmLActivity extends AppCompatActivity {
 
     private TimePicker timePicker;
     private AlarmManager alarmManager;
@@ -21,7 +21,7 @@ public class AlarmEActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alarm_e);
+        setContentView(R.layout.activity_alarm_l);
 
         timePicker=findViewById(R.id.tp_timepicker);
 

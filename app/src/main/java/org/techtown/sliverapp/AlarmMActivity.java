@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

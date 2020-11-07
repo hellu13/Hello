@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 import android.app.Dialog;
 import android.content.Context;

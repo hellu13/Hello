@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 public class ConstantDefine {
     public static final int ACT_TAKE_PIC = 1;

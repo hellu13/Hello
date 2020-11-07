@@ -1,4 +1,4 @@
-package org.techtown.hello;
+package org.techtown.sliverapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 
-public class CallingFActivity extends AppCompatActivity {
+public class CallingRActivity extends AppCompatActivity {
 
     private String name;
     private String number;
@@ -18,28 +18,28 @@ public class CallingFActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calling_f);
+        setContentView(R.layout.activity_calling_r);
 
-        Button btnWife = findViewById(R.id.btnWife);
-        Button btnSon = findViewById(R.id.btnSon);
-        Button btnDaughter = findViewById(R.id.btnDaughter);
+        Button btnGChild1 = findViewById(R.id.btnGChild1);
+        Button btnGChild2 = findViewById(R.id.btnGChild2);
+        Button btnCousin = findViewById(R.id.btnCousin);
         Button btnFSelect = findViewById(R.id.btnFSelect);
 
-        btnWife.setOnClickListener(new View.OnClickListener() {
+        btnGChild1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
                 startActivity(myIntent);
             }
         });
-        btnSon.setOnClickListener(new View.OnClickListener() {
+        btnGChild2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
                 startActivity(myIntent);
             }
         });
-        btnDaughter.setOnClickListener(new View.OnClickListener() {
+        btnCousin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1000-1000"));
