@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         btnNavigator.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.me/5O5IK8z6"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://naver.me/GGuA3zOO"));
                 startActivity(intent);
             }
         });

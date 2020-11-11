@@ -8,51 +8,65 @@
     android:layout_alignParentTop="true">
 
 
-    <ScrollView
-        android:id="@+id/scrollView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true">
+        android:layout_height="250dp"
+        android:background="#ffffff"
+        android:id="@+id/ImageContainer">
 
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:text="이미지" />
 
-            <TextView
-                android:id="@+id/tv_time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/scrollView"
-                android:gravity="center"
-                android:text="처리시간" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/sdata"/>
 
-            <TextView
-                android:id="@+id/tv_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/scrollView"
-                android:gravity="center"
-                android:text="@string/FirstMessage" />
+    </RelativeLayout>
 
-            <ImageView
-                android:id="@+id/iv_image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp" />
-        </LinearLayout>
-    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@id/ImageContainer"
+        android:clickable="true"
+        android:onClick="processImage"
+        android:background="#166e78"
+        android:id="@+id/OCRButtonContainer">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RUN OCR"
+            android:textSize= "18dp"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:onClick="processImage"/>
 
+    </RelativeLayout>
 
-    <Button
-        android:id="@+id/btn_OCR"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        android:text="사진찍기" />
+        android:layout_below="@id/OCRButtonContainer"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여기에 결과 출력됩니다."
+            android:id="@+id/OCRTextView"
+            android:textSize="35dp"
+            android:textColor="#169cdf"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"
+            android:scrollbars="vertical"
+            />
+    </RelativeLayout>
 
 </RelativeLayout>
