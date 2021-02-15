@@ -35,26 +35,35 @@
   + 개인별 약 복용 주기에 따라 알람 설정
   + 아침, 점심, 저녁 별 알람 등록 혹은 해지 가능  
   실행 화면  
-    <img width="540" alt="메인" src="https://user-images.githubusercontent.com/46749717/107386038-d02dca80-6b36-11eb-8803-4cbce13f6b26.png">  
+    ![알림](https://user-images.githubusercontent.com/46749717/107922477-69cffe80-6fb3-11eb-8f71-9ad876153860.JPG)  
+  
+  
 + 돋보기 기능
   + 사진 선택하기 버튼을 눌러 앨범에서 사진(문자) 선택
   + 혹은 사진 찍기 버튼을 눌러 카메라로 확대할 사진(문자) 촬영
   + 확대하기 버튼 클릭 시 사진에 있는 문자를 텍스트로 변환하여 확대 후 출력  
   실행 화면  
-    <img width="540" alt="메인" src="https://user-images.githubusercontent.com/46749717/107386038-d02dca80-6b36-11eb-8803-4cbce13f6b26.png">  
+    ![돋보기](https://user-images.githubusercontent.com/46749717/107922447-5c1a7900-6fb3-11eb-9338-07ce0880fa42.JPG)  
+  
+  
 + 집 찾기 기능
   + 집 찾기 버튼 클릭 시 바로 거리뷰를 통한 집까지의 경로 안내
   + 초기에 집 위치를 설정하여 여러 가지 항목을 설정해야 하는 복잡한 단계 축소  
   실행 화면  
-    <img width="540" alt="메인" src="https://user-images.githubusercontent.com/46749717/107386038-d02dca80-6b36-11eb-8803-4cbce13f6b26.png">  
+    ![집찾기](https://user-images.githubusercontent.com/46749717/107922517-75232a00-6fb3-11eb-9c61-1e1fa74ffe3c.JPG)  
+  
+  
 + 전화 걸기 기능
   + 카테고리 선택 후 연락할 사람을 선택하면 해당 사람에게 통화 가능
   + 연락처 가져오기 버튼을 클릭해 전화번호부에서 가져올 연락처 선택  
   실행 화면  
-    <img width="540" alt="메인" src="https://user-images.githubusercontent.com/46749717/107386038-d02dca80-6b36-11eb-8803-4cbce13f6b26.png">  
+    ![전화걸기](https://user-images.githubusercontent.com/46749717/107922536-7ce2ce80-6fb3-11eb-9c86-edeef605c546.JPG)  
+  
+  
   
 ## 데이터베이스 설계
-<img width="613" alt="mvc" src="https://user-images.githubusercontent.com/46749717/107127827-1e0abe80-68fc-11eb-8f93-419917630024.PNG">   
+![디비설계](https://user-images.githubusercontent.com/46749717/107922546-81a78280-6fb3-11eb-82ac-1c300601f2b6.JPG)  
+
 
   
   
